@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Retail Certification Chatbot</title>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial;
+      }
+      #webchat {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="webchat"></div>
+    <script>
+      window.WebChat.renderWebChat({
+        directLine: window.WebChat.createDirectLine({
+          secret: 'AEyYDbaXAG55ET5h7cAzF2lclnzY3XcVAD5opgEbs8Y6KOQoT520JQQJ99BDACYeBjFAArohAAABAZBS40NG.AFH5AArrGtIqqmbyIlhRFK2nkfizjECOGzK7aSht4j9g1BVvp1sUJQQJ99BDACYeBjFAArohAAABAZBS2ckx'
+        })
+      }, document.getElementById('webchat'));
+    </script>
+  </body>
+</html>
